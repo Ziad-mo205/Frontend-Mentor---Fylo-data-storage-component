@@ -22,15 +22,22 @@
     <main>
       <div class="card">
         <img src="./images/logo.svg" alt="" />
-        <img src="./images/icon-document.svg" alt="" />
-        <img src="./images/icon-folder.svg" alt="" />
-        <img src="./images/icon-upload.svg" alt="" />
+        <div>
+          <img src="./images/icon-document.svg" alt="" />
+          <img src="./images/icon-folder.svg" alt="" />
+          <img src="./images/icon-upload.svg" alt="" />
+        </div>
       </div>
       <div class="storage">
-        <p>You’ve used 815 GB of your storage</p>
-        <div class="bar"></div>
-        <div class="bar-labels">0 GB 1000 GB</div>
-        <div class="storage-left">185 GB Left</div>
+        <p>You’ve used <span>815 GB</span> of your storage</p>
+        <div class="bar">
+          <div class="bar-level"></div>
+        </div>
+        <div class="bar-labels">
+          <p class="zero">0 GB</p>
+          <p>1000 GB</p>
+        </div>
+        <p class="storage-left"><span>185</span> GB LEFT</p>
       </div>
     </main>
     <footer class="attribution">
